@@ -1,0 +1,202 @@
+/* 
+inicio
+*/
+
+html * {    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/* inicio del menu =) */
+
+header nav {
+    background-color:#FFFFFF;
+
+}
+
+header nav li {
+    display: block;
+    float: left;
+    width: 130px;
+    line-height:50px;
+    font-size: 20px;
+    text-align:center ;
+}
+
+header nav li p {
+    transition: all 700ms;
+}
+
+
+header nav li:hover >p {
+    background-color:black;
+    color:white
+}
+
+header nav li img{
+    position:absolute;
+    top: 0;
+    left: 80px;
+}
+
+header{
+    height:50px
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+/* final del menu */
+
+
+
+
+/*
+poner los background
+*/
+body {
+    background-color:#deefe7;
+}
+footer{
+    background-color:#002333;
+
+}
+/* fianl del background */
+
+
+
+
+
+/*  inicio del body */
+
+h3{
+    padding-top:30px;
+    margin-bottom:10px ;
+    text-align:center;
+    font-size: 30px;
+
+}
+
+
+
+.cuerpo img{
+    width: 1000px;
+    display:block;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.cuerpo p{
+    width:60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+
+
+.boton_personalizado{
+    display:block ;
+    background-color:rgb(67, 67, 255);
+    border-radius:100px;
+    width: 150px;
+    height:60px;
+    display:block;
+    margin: 0px auto;
+    color: black;
+    text-align: center;
+    line-height: 55px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.boton_personalizado:hover{
+    animation-name:animacion;
+    animation-duration:1000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    font-size: 17px;
+
+}
+
+@keyframes animacion{
+    0%{
+        width: 150px;
+        height:60px; 
+        line-height: 55px;
+        border: 1px dashed black;
+        box-shadow: 1px 1px 4px inset;
+    }
+    
+    50%{
+        width: 160px;
+        height:70px;
+        line-height: 65px;
+        border: 1px dashed black;
+        box-shadow: 1px 1px 4px inset;    
+    }
+    
+    75%{
+
+        background-color:rgb(235, 42, 68);
+        border: 1px dashed black;
+        box-shadow: 1px 1px 4px inset;
+
+
+    }
+
+    100%{
+        width: 150px;
+        height:60px;
+        line-height: 55px;
+        background-color:rgb(67, 67, 255);
+        border: 1px dashed black;
+        box-shadow: 1px 1px 4px inset;
+    }
+
+
+}
+/*final del body */
+
+
+
+
+
+
+
+/* inicio del pie de paguina */
+footer{
+    padding-top: 40px;
+    padding-bottom:40px;
+    text-align: center;
+    min-height:30px
+}
+footer span{
+    color: #ffffff;
+    width: 1200px;
+    margin-left: 40px;
+    font-size: 20px;
+
+
+}
+
+footer p{
+    font-family: cursive;
+
+}
+.relleno{
+    padding-top:20px;
+
+}
+
+/* fianl del pie de paguina */
+
+
+
